@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+
+}
+
+.main-body {
+  height : 100%
+  background:#212427;
+  color:#CACACA;
+  width:100%;
+  font-family:"Open Sans",sans-serif;
+  overflow-x: hidden;
+}
+
+
+.body {
+   padding: 50px;
+  min-height:100vh;
+  background:#212427;
+  color:#CACACA;
+  width:100%;
+  font-family:"Open Sans",sans-serif;
+}
+
+H1,H3, H2,H4,H5{
+  font-family:'Montserrat';
+  margin: 10px;
+  white-space:nowrap;
+  padding: 2%;
+  border-radius: 15%;
+  font-weight: bold;
+}
+
+H6{
+  font-family:'Montserrat';
+  margin: 10px;
+  white-space:nowrap;
+  padding: 2%;
+  padding: 2%;
+}
+
+.stats{
+    background : #282C31;
+    border: 1px solid #4D4D4D;
+    margin-left : 20px;
+    border-radius: 15px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    width: 340px;
+    height: 180px;
+    display: flex;
+    justify-content : space-between;
+    flex-direction : column
+}
+
+.bigRow{
+     display : flex;
+     flex-direction: row;
+}
+
+.side-bar{
+    background : #282C31;
+    border: 1px solid #4D4D4D;
+    width : 100px;
+    height : 100%;
+    margin : auto;
+    padding : 10px;
+    padding-left: 20px;
+    padding-top : 50px;
+}
+
+.parent{
+     display : flex;
+     flex-direction: row;
+}
+
+.sub{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content : space-between;
+}
+
+.modebar{
+      display: none !important;
+}
+
+.charts_choro{
+     background : #282C31;
+    border: 1px solid #4D4D4D;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    margin-left : 20px;
+    border-radius: 15px;
+    width: 650px;
+    height: 510px;
+}
+
+.charts_pill{
+    background : #282C31;
+    border: 1px solid #4D4D4D;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    margin-left : 20px;
+    border-radius: 15px;
+    width: 390px;
+    height: 510px;
+}
+
+.charts_line{
+    background : #282C31;
+    border: 1px solid #4D4D4D;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    margin-left : 20px;
+    border-radius: 15px;
+    width: 650px;
+    height: 800px;
+}
+
+.charts_pie{
+    background : #282C31;
+    border: 1px solid #4D4D4D;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    margin-left : 20px;
+    border-radius: 15px;
+    width: 390px;
+    height: 350px;
+     padding: 10px;
+}
+
+
+.filler{
+    background : #282C31;
+    border: 1px solid #4D4D4D;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    margin-left : 20px;
+    border-radius: 15px;
+    width: 390px;
+    height: 430px;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction : row;
+    justify-content : space-between;
+    padding-right: 40px;
+}
+
+.round {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
